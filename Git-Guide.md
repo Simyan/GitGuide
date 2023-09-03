@@ -4,7 +4,7 @@
 > 1. &emsp; `git init` <br>  &emsp;&emsp; Initializes a new Git repository in the current working directory.<br>
 > 1. &emsp; `git clone <repo>` <br>  &emsp;&emsp; Creates a copy of the specified remote repoistory in the working directory. By default it copies all of the version history as well. <br> &emsp;&emsp; It is possible to partially copy the contents by providing additional paramters, however this is not very common.<br>
 > 2. &emsp; `git fetch` <br> &emsp;&emsp; Gets the latest missing changes from the remote to the local repository. <br> &emsp;&emsp; This will not reflect in your working directory.<br>
-> 3. &emsp; `git merge <branch | commit>` <br>  &emsp;&emsp;  Gets the changes from the specified target into where the Head is currently pointing. This creates a new commit with both the changes.<br>
+> 3. &emsp; `git merge <branch | commit>` <br>  &emsp;&emsp;  Gets the changes from the specified target into where the Head is currently pointing. This creates a new commit with <br> &emsp;&emsp; both the changes.<br>
 > 4. &emsp; `git push` <br>  &emsp;&emsp; This pushes the new changes commited in your local repository to the remote repository.<br> 
 > 5. &emsp; `git pull` <br>  &emsp;&emsp; This does the job of fetch and merge in one command. Normally we would use this to get changes from the remote repository.<br>
 > 6. &emsp; `git checkout <branch | commit>` <br>  &emsp;&emsp; Changes the head to the specified target
@@ -18,7 +18,7 @@
 ## Git Advanced Commands
 
 > 11. &emsp; `git rebase` <br>  &emsp;&emsp; Bring in changes to specified target from source. This copies the commits from the source and appends it to the target. <br> &emsp;&emsp; This allows you to keep a clean history of commits as they will be linear. 
-> 11. &emsp; `git rebase -i` <br>  &emsp;&emsp; This allows you to similarly copy commits onto target from source but additionally it also lets you perform various actions <br> &emsp;&emsp; to the range of commits that are being copied. You can reorder the commits, squash them into one, edit commits or even omit them.   
+> 11. &emsp; `git rebase -i` <br>  &emsp;&emsp; This allows you to similarly copy commits onto target from source but additionally it also lets you perform various actions <br> &emsp;&emsp; to the range of commits that are being copied. You can reorder the commits, squash them into one, edit commits or even omit <br> &emsp;&emsp; them.   
 > 11. &emsp; `git cherrypick <[commit ids]>` <br>  &emsp;&emsp; Let's you copy specified commits onto where the head is currently pointing.  
 > 11. &emsp; `git reset` <br>  &emsp;&emsp; This allows you to rollback to your previous commits, you can specify how far back you want to go relative to the HEAD. <br> &emsp;&emsp;  Useful for rolling back file changes in staging area or commits in your local repository  
 > 11. &emsp; `git revert` <br>  &emsp;&emsp; This will rollback your changes similarly except it will append it as a new commit. <br> &emsp;&emsp; Useful for rolling back changes that have already been pushed to remote.
@@ -26,7 +26,7 @@
 
 ## Additional Information
 
-&emsp; This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git and how to approach certain scenarios
+&emsp; This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git and how to <br> &emsp; approach certain scenarios
 
 > ### **Understanding the basics**
 > [This article](https://agripongit.vincenttunru.com/) is an excellent introduction to the basic workflow of git. 
