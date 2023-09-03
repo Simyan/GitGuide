@@ -26,7 +26,7 @@
 
 ## Additional Information
 
-&emsp; This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git and how to <br> &emsp; approach certain scenarios
+&emsp; This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git <br> &emsp; and how to  approach certain scenarios
 
 > ### **Understanding the basics**
 > [This article](https://agripongit.vincenttunru.com/) is an excellent introduction to the basic workflow of git. 
