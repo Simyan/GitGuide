@@ -26,13 +26,13 @@
 
 ## Additional Information
 
- This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git <br>  and how to  approach certain scenarios
+ This section will introduce you to some aditional resouces that will help you get a better understanding of various concepts of Git and how to approach certain scenarios.
 
 ### **Understanding the basics**
 [This article](https://agripongit.vincenttunru.com/) is an excellent introduction to the basic workflow of git. 
 
 ### **Interactive tutorials**
-[I highly recommend this website](https://learngitbranching.js.org/). It is an interactive guide where you will be asked to complete levels by running git commands to complete the scenario. <br><br>  Below is a list of few important levels that will help you understand the following concepts. The website allows you to navigate directly to a given level of your choice from the level selector, the level column in the table will help you navigate it
+[I highly recommend this website](https://learngitbranching.js.org/). It is an interactive guide where you will be asked to complete levels by running git commands to complete the scenario. <br><br>  Below is a list of few important levels that will help you understand the following concepts. The column "Path to Level" will help you with navigating the level selector. 
 | Concept | Path to Level | 
 | ----------- | ----------- |
 | Rebase |  Main &rarr; Introduction Sequence &rarr; 4️⃣
